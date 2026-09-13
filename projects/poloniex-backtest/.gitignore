@@ -1,4 +1,19 @@
+# Data cache files
 data/raw/*.parquet
 data/processed/*.parquet
+
+# Log files
 *.log
 nohup.out
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Results files (keep directory structure but not all CSV files)
+# results/ folder structure is committed, but large result files should be excluded if needed
+results/trades/all_trades.csv
+results/metrics/all_metrics.csv
