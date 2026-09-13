@@ -1,0 +1,4 @@
+data/raw/*.parquet
+data/processed/*.parquet
+*.log
+nohup.out
